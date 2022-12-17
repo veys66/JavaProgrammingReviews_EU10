@@ -7,4 +7,8 @@ public class GarantiBank extends Bank{
         super.calculateTheInterest();
         System.out.println(getCapital()* 8/100);
     }
+
+    private int calculate(){
+        return getCapital()*8/100;
+    }
 }

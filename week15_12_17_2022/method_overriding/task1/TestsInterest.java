@@ -14,6 +14,10 @@ public class TestsInterest {
         IngBank ingBank= new IngBank();
         ingBank.calculateTheInterest();
 
+        TestsInterest testsInterest=new TestsInterest();
+
+        System.out.println(testsInterest.getClass().getSimpleName());
+
 
     }
 }
