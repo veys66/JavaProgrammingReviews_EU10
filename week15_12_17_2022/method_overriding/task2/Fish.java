@@ -5,6 +5,6 @@ public class Fish extends Animal{
     @Override
     public void move() {
         super.move();
-        System.out.println("Fishes are swimming");
+        System.out.println("Fish are swimming");
     }
 }
