@@ -5,5 +5,4 @@ Create an Animal class has a functionality (move()) that
 
 
 Bird    -----> flying
-Human   -----> walking
-Flower  -----> not moving
+Cow  -----> walking
