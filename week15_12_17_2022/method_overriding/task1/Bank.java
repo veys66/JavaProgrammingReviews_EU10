@@ -8,8 +8,12 @@ public class Bank {
         return capital;
     }
 
-    public void calculateTheInterest(){
+    //How we can get the class name?
+    //The answer is getClass().getSimpleName()
 
+    public void calculateTheInterest(){
+        System.out.println("Interest of the " + getClass().getSimpleName());
+        getClass().getSimpleName();
     }
 
 }
