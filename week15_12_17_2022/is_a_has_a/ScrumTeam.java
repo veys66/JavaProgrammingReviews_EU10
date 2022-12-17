@@ -8,4 +8,8 @@ public class ScrumTeam {
     //Scrum Team HAS A developer
     Developer developer;
 
+    public ScrumTeam(Tester tester, Developer developer) {
+        this.tester = tester;
+        this.developer = developer;
+    }
 }
