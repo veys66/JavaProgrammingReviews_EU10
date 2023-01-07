@@ -1,4 +1,4 @@
-package week_18_01_07_2023;
+package week_18_01_07_2023.exception;
 
 public class CustomExceptionExample {
     public static void main(String[] args) {
