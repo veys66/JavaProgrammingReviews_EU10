@@ -1,4 +1,4 @@
-package week_18_01_07_2023.exception;
+package week18_01_07_2023.exception;
 
 
 
