@@ -1,4 +1,4 @@
-package week19_01_14_2023;
+package week19_01_14_2023.animals;
 
 public class Animal {
 
