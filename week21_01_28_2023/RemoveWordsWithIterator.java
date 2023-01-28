@@ -24,9 +24,24 @@ public class RemoveWordsWithIterator {
             }
             System.out.println(words);
 
+//===================================
+        //remove the word which has more than 5 letters
 
-            //remove the word which has more than 5 letters
+        List<String> names = new ArrayList<>(Arrays.asList("apple", "banana", "cherry", "Cydeo", "dog"));
+
+
+        Iterator<String> iterator1 = names.iterator();
+
+        while (iterator1.hasNext()) {
+            String word = iterator1.next();
+            if (word.length() > 5) {
+                iterator1.remove();
+            }
 
         }
+        System.out.println("names = " + names);
 
+
+
+        }
     }
